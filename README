@@ -1,13 +1,6 @@
 Toolkit
 =======
 
-Introduction goes here.
+A small toolkit of helper methods and what not for Rails+HAML applications.
 
-
-Example
-=======
-
-Example goes here.
-
-
-Copyright (c) 2009 [name of plugin creator], released under the MIT license
+Copyright (c) 2009 Jacob Basham, released under the MIT license
