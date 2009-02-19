@@ -47,14 +47,11 @@ module ToolkitHelper
     if args.length == 1 && args[0].is_a?(Symbol)
       case args[0]
       when :uri 
-        content_tag(:abbr, "URI", 
-                           :title => "Universal Resource Identifier")
+        abbr('URI', 'Universal Resource Identifier')
       when :url
-        content_tag(:abbr, "URL",
-                           :title => "Universal Resource Locator")
+        abbr('URL', 'Universal Resource Locator')
       when :llc
-        content_tag(:abbr, "LLC",
-                           :title => "Limited Liability Corporation")
+        abbr('LLC', 'Limited Liability Corporation')
       end
     elsif args.length == 2
       if args[0].is_a?(Date)
