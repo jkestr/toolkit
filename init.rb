@@ -1,1 +1,1 @@
-ActionView::Base.send(:include, Toolkit)
+ActionView::Base.send(:include, ToolkitHelper)
