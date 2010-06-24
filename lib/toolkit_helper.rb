@@ -52,7 +52,7 @@ module ToolkitHelper
   # Returns time_ago_in_words for a random time.
   # max_minutes:: maximum number of minutes back allowed
   def rand_time_ago_in_words(max_minutes = 640)
-    time_ago_in_words(Time.now - rand(max_minutes) << " ago"
+    time_ago_in_words(Time.now - rand(max_minutes)) << " ago"
   end
 
 end
